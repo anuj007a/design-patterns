@@ -1,7 +1,7 @@
-package com.wraith.factory.pattern.creators;
+package com.wraith.factory.pattern.notification.creators;
 
-import com.wraith.factory.pattern.service.EmailNotification;
-import com.wraith.factory.pattern.service.Notification;
+import com.wraith.factory.pattern.notification.service.EmailNotification;
+import com.wraith.factory.pattern.notification.service.Notification;
 
 public class EmailNotificationCreator extends NotificationCreator {
     private final String firstName;

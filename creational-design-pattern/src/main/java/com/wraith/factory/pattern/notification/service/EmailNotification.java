@@ -1,4 +1,4 @@
-package com.wraith.factory.pattern.service;
+package com.wraith.factory.pattern.notification.service;
 
 public class EmailNotification extends BaseNotification {
 

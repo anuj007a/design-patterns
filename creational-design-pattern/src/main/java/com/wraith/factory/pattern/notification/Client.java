@@ -1,8 +1,8 @@
-package com.wraith.factory.pattern;
+package com.wraith.factory.pattern.notification;
 
-import com.wraith.factory.pattern.creators.EmailNotificationCreator;
-import com.wraith.factory.pattern.creators.NotificationCreator;
-import com.wraith.factory.pattern.creators.SmsNotificationCreator;
+import com.wraith.factory.pattern.notification.creators.EmailNotificationCreator;
+import com.wraith.factory.pattern.notification.creators.NotificationCreator;
+import com.wraith.factory.pattern.notification.creators.SmsNotificationCreator;
 
 public class Client {
     public static void main(String[] args) {
