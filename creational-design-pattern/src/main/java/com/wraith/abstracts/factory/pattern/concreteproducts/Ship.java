@@ -1,4 +1,6 @@
-package com.wraith.factory.pattern.logistics.service;
+package com.wraith.abstracts.factory.pattern.concreteproducts;
+
+import com.wraith.abstracts.factory.pattern.abstractproducts.Transport;
 
 public class Ship implements Transport {
     @Override

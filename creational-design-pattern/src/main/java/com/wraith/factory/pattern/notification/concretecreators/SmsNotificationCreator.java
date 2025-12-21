@@ -1,7 +1,8 @@
-package com.wraith.factory.pattern.notification.creators;
+package com.wraith.factory.pattern.notification.concretecreators;
 
-import com.wraith.factory.pattern.notification.service.Notification;
-import com.wraith.factory.pattern.notification.service.SmsNotification;
+import com.wraith.factory.pattern.notification.creators.NotificationCreator;
+import com.wraith.factory.pattern.notification.product.Notification;
+import com.wraith.factory.pattern.notification.concreteproducts.SmsNotification;
 
 public class SmsNotificationCreator extends NotificationCreator {
     private final String firstName;

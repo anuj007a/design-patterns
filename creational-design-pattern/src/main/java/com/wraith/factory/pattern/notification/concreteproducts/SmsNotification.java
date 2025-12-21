@@ -1,6 +1,8 @@
-package com.wraith.factory.pattern.notification.service;
+package com.wraith.factory.pattern.notification.concreteproducts;
 
-public class SmsNotification extends  BaseNotification {
+import com.wraith.factory.pattern.notification.baseproduct.BaseNotification;
+
+public class SmsNotification extends BaseNotification {
     private final long phoneNumber;
 
     public SmsNotification(String firstName,
@@ -17,11 +19,12 @@ public class SmsNotification extends  BaseNotification {
                         " | User: " + fullName()
         );
     }
-    @Override
+
+/*    @Override
     public void validate() {
         if (phoneNumber < 1 || phoneNumber > 9999999999L) {
             throw new IllegalArgumentException("Invalid phone number: " + phoneNumber);
         }
         System.out.println("Validating phone number: " + phoneNumber);
-    }
+    }*/
 }

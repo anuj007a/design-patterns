@@ -1,4 +1,6 @@
-package com.wraith.factory.pattern.notification.service;
+package com.wraith.factory.pattern.notification.baseproduct;
+
+import com.wraith.factory.pattern.notification.product.Notification;
 
 public abstract class BaseNotification implements Notification {
 

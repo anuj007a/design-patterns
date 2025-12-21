@@ -1,4 +1,6 @@
-package com.wraith.factory.pattern.notification.service;
+package com.wraith.factory.pattern.notification.concreteproducts;
+
+import com.wraith.factory.pattern.notification.baseproduct.BaseNotification;
 
 public class EmailNotification extends BaseNotification {
 
@@ -19,12 +21,12 @@ public class EmailNotification extends BaseNotification {
         );
     }
 
-    @Override
+/*    @Override
     public void validate() {
-        if ( !emailId.contains("@") ) {
+        if (!emailId.contains("@")) {
             throw new IllegalArgumentException("Invalid email address: " + emailId);
         }
         System.out.println("Validating email address: " + emailId);
-    }
+    }*/
 }
 
